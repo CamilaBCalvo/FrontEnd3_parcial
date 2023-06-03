@@ -40,3 +40,29 @@
 .read-the-docs {
   color: #888;
 }
+
+input {
+  width: 50%; /* Ajusto el ancho para que se lean los placeholders que me quedaron largos*/
+}
+
+.form {
+  width: 50em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2em;
+  gap: 1em;
+  border: 1px solid grey;
+  padding: 30px;
+}
+
+.card {
+  width: 30em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2em;
+  gap: 1em;
+  border: 1px solid grey;
+  padding: 30px;
+}
